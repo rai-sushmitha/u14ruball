@@ -1,9 +1,13 @@
 #!/bin/bash -e
 
 sudo apt-get clean
-sudo mv /var/lib/apt/lists /tmp
+sudo mv /var/lib/apt/lists/* /tmp
 sudo mkdir -p /var/lib/apt/lists/partial
 sudo apt-get clean
+sudo apt-get update
+
+echo '===== Installing libgmp3-dev package ====='
+sudo apt-get install libgmp3-dev
 sudo apt-get update
 
 echo "================= Updating global rvm packages ==================="
