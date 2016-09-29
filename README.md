@@ -8,6 +8,9 @@ Shippable CI image for Ruby on Ubuntu 14.04 with all services. Available version
 3. 2.0.0
 4. 2.1.5
 5. 2.2.1
+6. 2.2.5
+7. 2.3.0
+8. 2.3.1
 
 **Services:**
 
